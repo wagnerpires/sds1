@@ -1,6 +1,5 @@
 package com.devsuperior.dspesquisa.resources;
 
-import com.devsuperior.dspesquisa.dtos.GameDTO;
 import com.devsuperior.dspesquisa.dtos.RecordDTO;
 import com.devsuperior.dspesquisa.dtos.RecordInsertDTO;
 import com.devsuperior.dspesquisa.services.RecordService;
@@ -12,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.Instant;
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "/records")
